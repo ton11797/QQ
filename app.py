@@ -3,15 +3,12 @@ import time
 from multiprocessing import Pool   
 import subprocess
 
-processes = ('test1', 'test2', 'test3') 
 print("------------------------------------")
 print(" 1.Luanch web")
 print("------------------------------------")
 
 web = input("Web url:")
-print("Web url: " + web)
 open_count = input("open count:")
-print("Web url: " + open_count)
 
 i = 1
 while i <= int(open_count):
